@@ -6,7 +6,7 @@ data center infrastructure management (DCIM) tool.
 ## TL;DR
 
 ```shell
-$ helm repo add bootc https://charts.boo.tc
+$ helm repo add netbox https://github.com/tony-advent/netbox/tree/main/netbox-charts
 $ helm install netbox \
   --set postgresql.postgresqlPostgresPassword=[password1] \
   --set postgresql.postgresqlPassword=[password2] \

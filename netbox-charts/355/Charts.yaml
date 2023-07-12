@@ -1,0 +1,19 @@
+apiVersion: v2
+name: netbox
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+maintainers:
+- name: Tony Peterson
+  email: antonyp@gamil.com
+  url: https://github.com/tony-advent
+dependencies:
+- name: postgresql
+  version: 12.x.x
+  repository: https://charts.bitnami.com/bitnami
+  condition: postgresql.enabled
+- name: redis
+  version: 17.x.x
+  repository: https://charts.bitnami.com/bitnami
+  condition: redis.enabled
