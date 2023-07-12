@@ -1,0 +1,320 @@
+apiVersion: v1
+entries:
+  netbox:
+  - apiVersion: v2
+    appVersion: v3.2.8
+    created: "2022-08-14T18:30:47.035823034Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.x.x
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: b0993bdda911cf003a50877258307ce8c9aa480970722bf1f7256a740cf16903
+    home: https://github.com/bootc/netbox-chart
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    maintainers:
+    - email: bootc@boo.tc
+      name: Chris Boot
+      url: https://github.com/bootc
+    name: netbox
+    urls:
+    - charts/netbox-4.1.1.tgz
+    version: 4.1.1
+  - apiVersion: v2
+    appVersion: v3.2.6
+    created: "2022-07-18T18:16:02.551435313Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.x.x
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 2ca3d4a4dc98a1be6d76c88936cb0f11a5c05904f49e5cfade84d9f591f6ba88
+    home: https://github.com/bootc/netbox-chart
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    maintainers:
+    - email: bootc@boo.tc
+      name: Chris Boot
+      url: https://github.com/bootc
+    name: netbox
+    urls:
+    - charts/netbox-4.1.0.tgz
+    version: 4.1.0
+  - apiVersion: v2
+    appVersion: v3.0.11
+    created: "2021-11-29T20:08:27.535960418Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.x.x
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 871812e35b5565eec044b21171e037bf64c0d99ab1a2944cf78cbbde3a67527a
+    home: https://github.com/bootc/netbox-chart
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    maintainers:
+    - email: bootc@boo.tc
+      name: Chris Boot
+      url: https://github.com/bootc
+    name: netbox
+    urls:
+    - charts/netbox-4.0.1.tgz
+    version: 4.0.1
+  - apiVersion: v2
+    appVersion: v3.0.11
+    created: "2021-11-29T19:58:58.298210931Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.x.x
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: e79a8d5e66862929d0ea7d6146768cf7bd7bd08722bdf78905d75e3d96f44460
+    home: https://github.com/bootc/netbox-chart
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    maintainers:
+    - email: bootc@boo.tc
+      name: Chris Boot
+      url: https://github.com/bootc
+    name: netbox
+    urls:
+    - charts/netbox-4.0.0.tgz
+    version: 4.0.0
+  - apiVersion: v2
+    appVersion: v2.10.4
+    created: "2021-02-15T22:46:13.104561003Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 9ce322ecaf0bfcc96b1d0023e405248e2c50be803456144c8c11fe1905f92b6b
+    home: https://github.com/bootc/netbox-chart
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    maintainers:
+    - email: bootc@boo.tc
+      name: Chris Boot
+      url: https://github.com/bootc
+    name: netbox
+    urls:
+    - charts/netbox-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
+    appVersion: v2.9.3
+    created: "2020-09-06T23:28:02.323097158Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 915cceec1539d0a6261a8ab230f19d59a97743ee6bd378cf38a5c12f1df25671
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-2.3.0.tgz
+    version: 2.3.0
+  - apiVersion: v1
+    appVersion: 2.8.3
+    created: "2020-05-09T20:49:49.528059718Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: e6bf34a53e7654b102f24800d1bc83df128f5470df11464aa782d6cb71112253
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v1
+    appVersion: 2.8.1
+    created: "2020-04-26T20:48:31.84429522Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 9b39ebdd0488254e97f3863a23c78414d7846e6276a95831a1044594b088e276
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
+    appVersion: 2.7.7
+    created: "2020-02-21T23:25:03.220738165Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: f59f9249ff2e45fb1a3685d78209afce2cf9767530648a11708983cb3deb3a6b
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v1
+    appVersion: 2.7.6
+    created: "2020-02-16T22:45:49.938273966Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: a7f9610ee97d3ce3ab5888cd52a36cd0b84363fca1faa027d13d6b848ba9b198
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 2.6.12
+    created: "2020-01-28T20:49:42.344667521Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 0890541b928fdb046a4926f1946a54f4e83318bcfd35517401fb779b0944a2be
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: 2.6.11
+    created: "2020-01-06T21:13:09.173002Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: a74877a741b093439933a0aad4e75540a89f3b55eb03bea214d0b3c21fb2b139
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: 2.6.7
+    created: "2019-12-11T21:04:00.402494515Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 9105f8d5c8b3db701422d0983f573501c3b490c0af713686024a6e22e873c047
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 2.6.7
+    created: "2019-12-11T22:35:22.102280164Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 09b72eb6e2d59ec6a016e825bd7ec1df7c342a28bdc51d9e2cfed5d499168831
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 2.6.6
+    created: "2019-10-13T14:20:36.954320925Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: e7c0c149832e8370375426bbd035968239844a2a18a81dd5db4fdc8964441d2b
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    appVersion: 2.6.3
+    created: "2019-09-11T14:29:01.893019019Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 6a43f551541638c513dbea5e47496e8b244c8b3e1bd8b530dd2868b946566fdc
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
+    appVersion: 2.6.2
+    created: "2019-08-04T13:41:09.108528215Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: b2869b8702c991537f16c576c8cc288623de077877a421392b926e96fb374811
+    icon: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    appVersion: 2.6.1
+    created: "2019-06-26T13:44:47.148513094Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: bbf038308a3e1be8f46a6da0e88af735c5c371483d298b62347f07402e5646dd
+    icon: https://raw.githubusercontent.com/digitalocean/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 2.5.13
+    created: "2019-06-16T14:01:40.165969964Z"
+    description: IP address management (IPAM) and data center infrastructure management
+      (DCIM) tool
+    digest: 2c89b26f8b33fb82a58705ed9b2c622ab496734a8db006a6f12ea62b0425df81
+    icon: https://raw.githubusercontent.com/digitalocean/netbox/develop/docs/netbox_logo.png
+    name: netbox
+    urls:
+    - charts/netbox-0.1.0.tgz
+    version: 0.1.0
+  puppetboard:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2019-11-16T11:53:18.863246585Z"
+    description: Puppetboard is a dashboard for PuppetDB
+    digest: 20fabd0b8b6a820d6aa101e15c7f9509e48cf81c47468c0342482ef21b5c5220
+    name: puppetboard
+    urls:
+    - charts/puppetboard-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2019-10-13T14:38:13.45653716Z"
+    description: Puppetboard is a dashboard for PuppetDB
+    digest: 34c9405aaba78a93500693bba93700c9b7940e077602cfa28a31badfd209fba4
+    name: puppetboard
+    urls:
+    - charts/puppetboard-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2018-11-04T16:33:40.178386455Z"
+    description: Puppetboard is a dashboard for PuppetDB
+    digest: 5531451bf8608ea2fe796f60b1acb2fed519dc9f488fa2a6ab2cf2bb399a48c8
+    name: puppetboard
+    urls:
+    - charts/puppetboard-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2018-11-03T19:53:57.274896386Z"
+    description: Puppetboard is a dashboard for PuppetDB
+    digest: 14b4ad8f8e339b9a046488bd2ed05c9d65fc8c4a4b7f8e4e6c4f55d278453297
+    name: puppetboard
+    urls:
+    - charts/puppetboard-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-14T18:30:47.016120686Z"
